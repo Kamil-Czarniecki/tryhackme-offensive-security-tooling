@@ -1,57 +1,33 @@
-Offensive Security Tooling - TryHackMe Notes
+# Offensive Security Tooling – TryHackMe Notes
 
-This repository contains my notes and learning materials from the TryHackMe Offensive Security Tooling module.
+Notes from the TryHackMe **Offensive Security Tooling** module: common tools used in authorized security assessments.
 
-Overview
-The goal of this repository is to document my learning journey in offensive security and penetration testing tools. The content focuses on understanding how common security assessment tools work and how they are used in authorized environments.
+## Contents
 
-Topics Covered
+| File | Topic |
+|------|-------|
+| [hydra.md](hydra.md) | Online password attacks: HTTP POST login forms, SSH |
+| [gobuster.md](gobuster.md) | Directory/file, DNS subdomain and virtual host enumeration; common flags |
+| [sql-injection.md](sql-injection.md) | How SQL injection works, using an authentication bypass example |
+| [shells-overview.md](shells-overview.md) | What a shell is; reverse, bind and web shells; how attackers use them |
 
-Hydra
-Password attack concepts
-Online authentication testing
-Service enumeration
-Responsible and authorized usage
+## Skills practiced
 
+- Web application reconnaissance and enumeration
+- Understanding authentication attacks
+- Basic vulnerability assessment concepts
+- Command-line security tools
+- Documentation and note-taking
 
-Gobuster
-Directory and file discovery
-Virtual host enumeration
-Wordlist-based reconnaissance
-Web application reconnaissance techniques
+## Learning platform
 
+- TryHackMe – Offensive Security Tooling module
 
-SQL Injection
-Basic SQL injection concepts
-Identifying injectable parameters
-Understanding database interaction
-Security implications and mitigation awareness
+## Disclaimer
 
+For educational purposes only. Use these techniques only in authorized lab environments, training platforms, or systems where you have explicit permission.
 
-Shell Overview
-Reverse shells
-Bind shells
-Web shells
-Common shell-related concepts used during penetration testing
+## Author
 
-
-Skills Practiced
-Web application reconnaissance
-Enumeration techniques
-Understanding authentication attacks
-Basic vulnerability assessment concepts
-Command-line security tools
-Documentation and note-taking
-
-Learning Platform
-TryHackMe
-Module: Offensive Security Tooling
-
-Disclaimer
-This repository is intended for educational purposes only. All techniques should be practiced only in authorized environments such as labs, training platforms, and systems where explicit permission has been granted.
-
-Author
-Cybersecurity student documenting practical learning and hands-on labs.
-
-
-
+SOC Analyst (4+ years) | CySA+ | Security+ | MSc Cyber Security
+Moving towards offensive security, penetration testing and web application security.
